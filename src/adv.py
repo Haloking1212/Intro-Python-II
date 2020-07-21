@@ -2,6 +2,8 @@ from room import Room
 
 # Declare all the rooms
 
+
+
 room = {
     'outside':  Room("Outside Cave Entrance",
                      "North of you, the cave mount beckons"),
@@ -33,6 +35,7 @@ room['narrow'].w_to = room['foyer']
 room['narrow'].n_to = room['treasure']
 room['treasure'].s_to = room['narrow']
 
+print(room['outside'])
 #
 # Main
 #
